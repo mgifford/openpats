@@ -1,0 +1,30 @@
+{
+        "@type":        "OPAG",
+        "@language":    "en",
+        “dct:vpat-version:":    "Revised Section 508 Edition",
+        “dct:product-version:":    "Revised Section 508 Edition",
+        “dct:vpat-version:":    "Drupal 9.1",
+        "dct:date":     "18-01-2021",
+        “dct:report-version:":    "1.2.2",
+        “dct:description:":    "Content Management System",
+        "dct:title":    "Drupal Accessibility Conformance Report",
+        "dct:creator":  "Mike Gifford, CivicActions",
+        "creator-address": "3527 Mt Diablo Blvd, Unit 269, Lafayette, CA 94549 USA”,   
+        "creator-address-email": "mike.gifford@civicactions.com",
+        "creator-address-phone": "(510) 408-7510",
+        "commissioner": "CivicActions",
+        "notes": "Links to the issues identified are included where possible to ensure that this is a living document where outstanding issues are regularly reviewed for compliance. The Authoring tool is evaluated against ATAG 2.0, Part A and B. Incorporating feedback from the Drupal community.",
+        "evaluation": "Use of automated tools like WAVE and Accessibility Insights. Manual keyboard only testing. Some testing with JAWS, NVDA and VoiceOver. The evaluation process also includes a review of the Drupal Core accessibility issue queue.",
+        "commissioner": "",
+        "WCAG2:reliedupondef": "Web technologies the website relies upon for providing it's content",
+        "guidelines": “WCAG 2.0 Level A”, “WCAG 2.0 Level AA”
+        "wcag20-levela-notes": "Notes: Drupal doesn't make a strong distinction between the front-end & back-end accessibility. Many administration interfaces can be exposed to users in a more interactive site. Generally this report focuses the Conformance Level / Remarks and Explanations so that Web comments are about elements that are typically public, while the Authoring Tool is typically for authors and administrators. The goal of the authoring interface is to support ATAG 2.0 AA (Part A and B). The Drupal community strives to beek up with the latest WCAG recommendation.",
+        "111-non-text-conformance":“Web: Supports”, “Electronic Docs: Supports”, ”Software: Not Applicable”, “Authoring Tool: Supports”,
+        "111-non-text-conformance-remarks": “Web: Drupal 8 requires alt text for images by default.”,  “Electronic Docs: Some non-textual content in the documentation does not provide a textual alternative.”,  “Software: Not Applicable”, “Authoring Tool: The back end of Drupal Core was built to be  WCAG 2.0 AA compliant and non-text content in the administration interface has a textual equivalent. Audio and video can be added to the media library, but Core does not provide tools to manage transcripts and captions/subtitles for local video and audio - Drupal issue #3002770.”,
+        "121-audio-video-only-conformance": “Web: Supports”, “Electronic Docs: Supports”, ”Software: Not Applicable”, “Authoring Tool: Supports”,
+        "121-audio-video-only-remarks": “Web: Authors can satisfy 1.2.1 Audio-only and Video-only (Prerecorded) by using text on the same page.”, “Electronic Docs: This is not explicitly defined in the documentation.”, “Software: Not Applicable”, “Authoring Tool: There is no additional support for authors within the authoring interface to explain how this can be done.”,
+        "122-captions-prerecorded-conformance": “Web: Supports”, “Electronic Docs: Supports”, ”Software: Not Applicable”, “Authoring Tool: Supports”,
+        "122-captions-prerecorded-remarks": “Web: The file module in Core lets authors upload audio and video content, and output <audio> and <video> elements and does not support captions.”, “Electronic Docs: Not Applicable”, “Software: Not Applicable”, “Authoring Tool: Drupal does not support, let alone require users to include captions. Hard coding open captions is presently the only way to satisfy this in Core.”,
+}
+
+
