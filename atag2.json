@@ -1,4 +1,4 @@
-const atag = [
+[
   {
     principle: {
       handle: "Accessibility Guidelines",
@@ -1204,5 +1204,4 @@ const atag = [
       },
     ],
   },
-];
-export default atag;
+]
