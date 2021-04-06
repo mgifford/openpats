@@ -17,7 +17,7 @@ therefore embedded within data like so:
 
 ```javascript
     {
-        "dct:title": 'My Website Audit',
+        "dct:title": 'My OpenPATS Review',
         "scope": { /* EvaluationScope */ },
         // ...
         "auditResults": [ /* earl assertions */ ]
@@ -110,13 +110,13 @@ step5b              | text               | Evaluation specifics
     }
 ```
 
-## EvaluationScope
+## EvaluationScope - TODO: This doesn't align
 Objects of type EvaluationScope described what should and what should
 not be considered as part of the evaluation. This includes both a 
 definition of the website that is to be tested, as well as the
 exact requirements against which the website is tested.
 
-### EvaluationScope properties
+### EvaluationScope properties - TODO: This doesn't align
 Properties                | Type        | Description
 --------------------------|-------------|----------------------------------
 WCAG2:set-of-web-pagesdef | sch:WebSite | Website that is to be evaluated
@@ -124,7 +124,7 @@ step1b                    | URL (level) | Conformance target
 step1c                    | text        | Accessibility support baseline
 step1d                    | text        | Additional evaluation requirement
 
-### Example
+### Example - TODO: This doesn't align
 ```javascript
     {
         "@type": "EvaluationScope",
@@ -135,48 +135,8 @@ step1d                    | text        | Additional evaluation requirement
     }
 ```
 
-## sch:WebSite
-A WebSite is a set of related web pages and other items typically 
-served from a single web domain and accessible via URLs.
 
-### sch:WebSite properties
-Properties          | Type    | Description
---------------------|---------|-------------------------
-step1a              | text    | Scope of the website
-sch:name            | text    | The name of the item
-
-### Example
-```javascript
-    {
-        "@type": ['earl:TestSubject', "sch:WebSite"],
-        "step1a": "All pages located at www.example.com",
-        "sch:name": "Example.com corporate"
-    }
-```
-
-## Sample
-A subset of web pages within the scope of the website that is to be audited.
-
-### Sample properties
-Properties          | Type        | Description
---------------------|-------------|-----------------------------------------
-WCAG2:webpagedef    | sch:WebPage | Resourced to be rendered in a user agent
-
-### Example
-```javascript
-    {
-        "@type": "Sample",
-        "WCAG2:webpagedef": [
-            { /* Sample page 1 */ },
-            { /* Sample page 2 */ }
-        ]
-    }
-```
-
-## sch:WebPage
-A web page is an document or application made available over http or https.
-
-### sch:WebPage properties
+### sch:WebPage properties - TODO: This doesn't align
 Properties          | Type    | Description
 --------------------|---------|------------------------------------------------------
 @id                 | URL     | URL or internal ID to be reffered to from assertions
@@ -185,7 +145,7 @@ dct:description     | text    | Description of how to show the page
 dct:source          | URL     | Source (url) of the web page
 reporter:tested     | boolean | If the page is fully tested yet
 
-### Example
+### Example - TODO: This doesn't align
 ```javascript
 {
     "@type": ['earl:TestSubject', "sch:WebPage"],
@@ -196,7 +156,7 @@ reporter:tested     | boolean | If the page is fully tested yet
 }
 ```
 
-## WCAG2:technologydef
+## WCAG2:technologydef - TODO: This doesn't align
 Mechanism for encoding instructions to be rendered, played or executed
 by user agents.
 
@@ -267,4 +227,4 @@ in a future version of the WCAG-EM Report Tool.
 
 ## Tested
 
-This boolean value is used by the Report Tool to track if a WebPage is tested.
+This boolean value is used by the Report Tool to track if software is tested.
