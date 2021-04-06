@@ -1,4 +1,5 @@
 catalog:
+  - openpats-version: 0.2
   # Available list of criteria
   - available-guidelines:
       - wcag2:
