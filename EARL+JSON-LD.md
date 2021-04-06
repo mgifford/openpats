@@ -1,15 +1,15 @@
 # EARL + JSON-LD
-The WCAG-EM Report Tool is an app created for accessibility auditors
-to guide them in the process of auditing websites for accessibility
-using the WCAG Evaluation Methodology. As any app should, the data
-is stored in a common format that can be saved and loaded back
-into the app.
+The OpenPATS is an app created for accessibility auditors
+to guide them in the process of creating accessibility
+statements that align with the WCAG Evaluation Methodology. 
+As any app should, the data is stored in a open standard format that 
+can be saved and loaded back into the app.
 
-At it's core, the WCAG-EM Report Tool uses the Evaluation And
+At it's core, the OpenPATS Tool uses the Evaluation And
 Report Language (EARL), developed by the W3C. EARL is build on
 top of the Resource Description Framework (RDF), which means it
 can be expressed using different formats such as XML, Turtle and
-JSON-LD. The WCAG-EM Report Tool requires significantly more
+JSON-LD. The OpenPATS Tool requires significantly more
 information than just the results of individual tests. It has
 data about the evaluation itself, such as the scope, sample, title,
 summary, etc. The EARL results are part of an evaluation, and are
@@ -25,20 +25,15 @@ therefore embedded within data like so:
 ```
 
 ## JSON Linked Data
-Though RDF can be expressed in different formats, the WCAG-EM 
-Report Tool can only load evaluation data expressed as JSON-LD.
-
-Concepts of WCAG-EM are mapped to the steps in the WCAG-EM 
-document. For example, the first step of WCAG-EM is to define scope,
-so 'scope' is mapped to http://www.w3.org/TR/WCAG-EM/#step1.
-
+Though RDF can be expressed in different formats, the OpenPATS Tool 
+can only load evaluation data expressed as JSON-LD or YAML. 
 
 # Classes
-The WCAG-EM Data format contains several classes. Most of them are
+The OpenPATS Test format contains several classes. Most of them are
 new to WCAG-EM, with a few of them are borrowed from other 
 schemas and decorated with different properties. These classes and
-the properties they are given in the WCAG-EM Report Tool are 
-described in the following sections.
+the properties they are given in the OpenPATS Tool are described 
+in the following sections.
 
 
 ## Namepaces
@@ -59,10 +54,9 @@ the WCAG 2 conformance target:
 - level_aa:  http://www.w3.org/WAI/WCAG2AA-Conformance
 - level_aaa: http://www.w3.org/WAI/WCAG2AAA-Conformance
 
-
 ## Evaluation
-An evaluation is the process of testing the accessibility of a website
-according to WCAG-EM. Objects of type Evaluation contains the
+An evaluation is the process of testing the accessibility of a digital tool
+according to OpenPATS. Objects of type Evaluation contains the
 data generated as part of the evaluation.
 
 Special: The @language property of JSON-LD will be used by the Report
