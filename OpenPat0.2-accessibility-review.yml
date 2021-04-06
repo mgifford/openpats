@@ -4,44 +4,34 @@ report:
   # company: Pulled from the associated OpenPat0.2-catalog.yml file
   # Revised Section 508 Edition **(Based on VPAT**® **Version 2.4)**
   # openpat-version: Pulled from OpenPat0.2-catalog.yml
-  # Name of Product/Version:
-  - product: 'Example CMS'
+  # Title of Product/Version:
+  - dct:title: 'Example CMS 1.0'
   # Report Date:
-  - date: 03-04-2021
+  - dct:date: 03-04-2021
   # Product Description:
-  - product-description: >-
+  - product_description: >-
     Multi-line description of whatever it is that this is
     Examples highlighting it.
-  # Contact Information:
-  # - contact: Pulled from the associated OpenPat0.2-catalog.yml file
-  #    - name: Pulled from the associated OpenPat0.2-catalog.yml file
-  #    - company: Pulled from the associated OpenPat0.2-catalog.yml file
-  #    - email: Pulled from the associated OpenPat0.2-catalog.yml file
-  # Notes
-  - notes-general: >-
-    Example notes
+  
+  # Contact Information: name, company, email - pulled from the associated OpenPat0.2-catalog.yml file
+  
+  # Executive summary of the findings of the report.
+  # This was the general Notes file at the top of the VPAT
+  - dct:summary	: >-
+    Summary of the report
   # Evaluation Methods Used:
-  - evaluation methods: >-
+  - evaluation_methods: >-
     Wave and more
 
   # Applicable Standards/Guidelines
   # This report covers the degree of conformance for the following accessibility standard/guidelines:
   # Standard/Guideline included in the report
-  - applicable-guidelines:
+  - applicable_guidelines:
     - wcag2
-      - '2.0 Level AA'
-      - section508revised
+      - wcag2_conformance: level_aa
+    - section508revised
     #  - wcag2: Pulled from the associated OpenPat0.2-catalog.yml file
-    #    - title: Web Content Accessibility Guidelines 2.0
-    #    - url: http://www.w3.org/TR/2008/REC-WCAG20-20081211
-    #    - versions:
-    #      - '2.0 Level A'
-    #      - '2.0 Level AA'
-    #  - section508:
-    #    - title: Revised Section 508 standards published January 18, 2017 and corrected January 22, 2018
-    #    - url: https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines
-    #    - versions:
-    #      - 'Revised Section 508 standards published January 18, 2017'
+    #  - section508: Pulled from the associated OpenPat0.2-catalog.yml file
 
   # Terms - See the associated OpenPat0.2-catalog.yml file
 
@@ -66,8 +56,8 @@ report:
             - text-equiv
           num: '1.1'
           versions:
-            - '2.0'
-            - '2.1'
+            - wcag2
+            - wcag21
           handle: Text Alternatives
           title: >-
             Non-text Content**](http://www.w3.org/TR/WCAG20/#text-equiv-all) (Level A) Also applies to:
