@@ -30,8 +30,11 @@ catalog:
 
   # Available list of WCAG 2.x conformance criteria
   - wcag2_conformance: 
+    ## WCAG 2.x Level A - Minimal conformance criteria
     - level_a: http://www.w3.org/WAI/WCAG2A-Conformance
+    ## WCAG 2.x Level AA - Standard conformance criteria, includes Level A requirements
     - level_aa: http://www.w3.org/WAI/WCAG2AA-Conformance
+    ## WCAG 2.x Level AAA - Aspirational conformance criteria, includes Level A and AA requirements
     - level_aaa: http://www.w3.org/WAI/WCAG2AAA-Conformance
 
   # Terms
