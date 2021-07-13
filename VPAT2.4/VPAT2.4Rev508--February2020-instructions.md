@@ -27,7 +27,7 @@ This is the Revised Section 508 edition of the VPAT. It includes the following s
 - [Web Content Accessibility Guidelines 2.0](http://www.w3.org/TR/2008/REC-WCAG20-20081211)
 - [Revised Section 508 standards published January 18, 2017 and corrected January 22, 2018](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines)
 
-If you need a different combination of standards/guidelines then use the appropriate alternate edition of the VPAT found on the [ITI Accessibility web page](https://www.itic.org/policy/accessibility/vpat).
+If you need a different combination of standards/guidelines then use the appropriate alternate edition of the VPAT found on [ITI Accessibility web page](https://www.itic.org/policy/accessibility/vpat).
 
 This document is broken into two main sections:
 
@@ -42,7 +42,7 @@ The VPAT is a template used to document a product's conformance with accessibili
 
 The Information Technology Industry Council (ITI) provides the VPAT. Use of the template and service mark does not require membership in ITI.
 
-# Essential Requirements and Best Practices for Information & Communications Technology (ICT) Vendors
+# Essential Requirements and Best Practices for Information and Communications Technology (ICT) Vendors
 
 This section provides guidance for reporting product conformance for major accessibility standards and guidelines using the VPAT® to produce the Accessibility Conformance Report. Deviating from these guidelines precludes vendors from referencing the template by name and/or the VPAT acronym.
 
@@ -95,14 +95,10 @@ Note: When filling in the WCAG tables, a response may use 'Supports' where one m
 1. WCAG Conformance Information – The answers in the WCAG success criteria are based on the level of conformance being reported (Level A, AA or AAA).
 
 - These tables are used to answer:
-
   - Revised Section 508:
-
     - Chapter 5 Software
     - Chapter 6 Support Documentation
-
   - The selected levels of WCAG 2.0 Guidelines.
-
 - If using a summary table, due to answers applying to multiple criteria, when answering for the Revised Section 508, the answers need to be clear about which individual criteria the answer applies to. It is possible to either use a summary, selecting the worst case for the criteria, or to have separate answers or even tables for software, support documentation, authoring tools, etc., so long as the methodology used is made clear.
 
 1. Remarks and Explanations – Detailed remarks should be provided in the Remarks and Explanations column to justify your answer in the Conformance Level column.
@@ -158,10 +154,8 @@ ITI suggests that authors adopt the following best practices when using the VPAT
 - **Criteria Text:** To help conserve space in the ITI template only the criteria ID number and a short title have been included. Where possible, links have been included to the standard/guideline.
   - It is acceptable to add the full text of the criteria into the cell if desired to help with understanding.
   - The links to the standards/guidelines can be removed.
-
 - **Ordering of Tables:** The order that the standard and guideline tables appear may be changed to facilitate reading. The current order is WCAG then Section 508. You can change this order to insert the WCAG criteria into the Section 508 tables.
 - **Guideline Section Heading Rows in Tables:** The tables include heading rows to facilitate understanding the context of the criteria.
-
   - The cells in these rows do not require answers as indicated by &quot;Heading cell – no response required.&quot;
   - It is optional to add a response if desired.
   - The shading of the row is also optional.

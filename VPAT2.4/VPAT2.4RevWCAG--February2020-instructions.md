@@ -29,7 +29,7 @@ This is the WCAG edition of the VPAT. It includes the following standards/guidel
 - [Web Content Accessibility Guidelines 2.0](http://www.w3.org/TR/2008/REC-WCAG20-20081211)
 - [Web Content Accessibility Guidelines 2.1](https://www.w3.org/TR/WCAG21)
 
-If you need to report on a different combination of standards/guidelines, use the appropriate alternate edition of the VPAT found on [ITI Accessibility web page](https://www.itic.org/policy/accessibility/vpat).
+If you need a different combination of standards/guidelines then use the appropriate alternate edition of the VPAT found on [ITI Accessibility web page](https://www.itic.org/policy/accessibility/vpat).
 
 This document is broken into two main sections:
 
@@ -70,7 +70,6 @@ The following are the minimum requirements to produce an Accessibility Conforman
 - **Contact Information** –Contact Information for follow-up questions. Listing an email is sufficient.
 - **Notes** – Any details or further explanation about the product or the report. This section may be left blank.
 - **Evaluation Methods Used** – Include a description of evaluation methods used to complete the VPAT for the product under test.
-
 - **Applicable Standards/Guidelines** – A clear indication of which Standards/Guidelines this Conformance Report covers.
 
   - The list must include only the Standards/Guidelines used to evaluate the product.
@@ -79,12 +78,11 @@ The following are the minimum requirements to produce an Accessibility Conforman
     - [Web Content Accessibility Guidelines 2.0](http://www.w3.org/TR/2008/REC-WCAG20-20081211) or WCAG 2.0 (ISO/IEC 40500)
     - [Web Content Accessibility Guidelines 2.1](https://www.w3.org/TR/WCAG21) or WCAG 2.1
 
-  - If other Standards/Guidelines are reported then use the appropriate VPAT edition.
+  - If other Standards/Guidelines are reported, then use the appropriate VPAT edition.
   - This information can be in a table format at the top of the report with the table heading 'Standards/Guidelines' and the reported Standards/Guidelines identified. This information can alternatively be supplied in the introductory text of the report. In the VPAT we have used a table as an example and listed &quot;(yes / no)&quot; for each guideline. To indicate what the report covers leave the appropriate yes or no on each guideline.
   - If multiple Guideline tables are included, each table must identify the Guideline that the criteria in that table represent.
 
 - **Terms** – The report must list the definition of the terms used in the Conformance Level column. ITI recommends the following terms. If a vendor deviates from the ITI definitions, the vendor shall reference this change in the heading Notes section. If a term is not used it can be removed from the list. The ITI definitions are:
-
   - **Supports** : The functionality of the product has at least one method that meets the criterion without known defects or meets with equivalent facilitation.
   - **Partially Supports** : Some functionality of the product does not meet the criterion.
   - **Does Not Support** :Themajority of product functionality does not meet the criterion.
@@ -99,9 +97,7 @@ Note: When filling in the WCAG tables, a response may use 'Supports' where one m
 1. WCAG Conformance Information – The answers in the WCAG success criteria are based on the level of conformance being reported (Level A, AA or AAA).
 
 - These tables are used to answer:
-
   - The selected levels of WCAG 2.x Guidelines.
-
 - When reporting on WCAG 2.0 criteria it is acceptable to remove the WCAG 2.1-specific criteria from the table. These are marked '2.1 only' within the row.
 
 1. Remarks and Explanations – Detailed remarks should be provided in the Remarks and Explanations column to justify your answer in the Conformance Level column.
@@ -119,7 +115,6 @@ Note: When filling in the WCAG tables, a response may use 'Supports' where one m
 ITI suggests that authors adopt the following best practices when using the VPAT® to create an Accessibility Conformance Report.
 
 - **Branding Header:** Company logo or branding information
-
 - **Report Date Changes:** If a report is revised, change the report date and explain the revision in the Notes section. Alternately, create a new report and explain in the Notes section that it supersedes an earlier version of the report.
 - **Notes:** Add any notes applicable to product or the report
   - Additional information about the product version that the document references
@@ -157,10 +152,8 @@ ITI suggests that authors adopt the following best practices when using the VPAT
 - **Criteria Text:** To help conserve space in the ITI template only the criteria ID number and a short title have been included. Where possible, links have been included to the standard/guideline.
   - It is acceptable to add the full text of the criteria into the cell if desired to help with understanding.
   - The links to the standards/guidelines can be removed.
-
 - **Ordering of Tables:** The order that the guideline tables appear may be changed to facilitate reading. For example, instead of separating the Level A, Level AA and Level AAA criteria, they may be put in one table in numerical order.
 - **Guideline Section Heading Rows in Tables:** The tables include heading rows to facilitate understanding the context of the criteria.
-
   - The cells in these rows do not require answers as indicated by &quot;Heading cell – no response required.&quot;
   - It is optional to add a response if desired.
   - The shading of the row is also optional.

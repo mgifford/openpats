@@ -73,7 +73,6 @@ The following are the minimum requirements to produce an Accessibility Conforman
 - **Contact Information** –Contact Information for follow-up questions. Listing an email is sufficient.
 - **Notes** – Any details or further explanation about the product or the report. This section may be left blank.
 - **Evaluation Methods Used** – Include a description of evaluation methods used to complete the VPAT for the product under test.
-
 - **Applicable Standards/Guidelines** – A clear indication of which Standards/Guidelines this Conformance Report covers.
 
   - The list must include only the Standards/Guidelines used to evaluate the product.
@@ -104,9 +103,7 @@ Note: When filling in the WCAG tables, a response may use 'Supports' where one m
 1. WCAG Conformance Information – The answers in the WCAG success criteria are based on the level of conformance being reported (Level A, AA or AAA).
 
 - These tables are used to answer:
-
   - Revised Section 508:
-
     - Chapter 5 Software
     - Chapter 6 Support Documentation
 
@@ -175,7 +172,6 @@ ITI suggests that authors adopt the following best practices when using the VPAT
 - **Criteria Text:** To help conserve space in the ITI template only the criteria ID number and a short title have been included. Where possible, links have been included to the standard/guideline.
   - It is acceptable to add the full text of the criteria into the cell if desired to help with understanding.
   - The links to the standards/guidelines can be removed.
-
 - **Ordering of Tables:** The order that the standards/guideline tables appear may be changed to facilitate reading. The current order is WCAG, Section 508 and EN 301 549. You can change this order if desired or incorporate the WCAG criteria into the Section 508 and EN 301 549 tables.
 - **Guideline Section Heading Rows in Tables:** The tables include heading rows to facilitate understanding the context of the criteria.
   - The cells in these rows do not require answers as indicated by &quot;Heading cell – no response required.&quot;

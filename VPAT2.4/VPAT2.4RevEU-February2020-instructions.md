@@ -45,7 +45,7 @@ The VPAT is a template used to document a product's conformance with accessibili
 
 The Information Technology Industry Council (ITI) provides the VPAT. Use of the template and service mark does not require membership in ITI.
 
-# Essential Requirements and Best Practices for Information & Communications Technology (ICT) Vendors
+# Essential Requirements and Best Practices for Information and Communications Technology (ICT) Vendors
 
 This section provides guidance for reporting product conformance for major accessibility standards and guidelines using the VPAT® to produce the Accessibility Conformance Report. Deviating from these guidelines precludes vendors from referencing the template by name and/or the VPAT acronym.
 
@@ -71,7 +71,6 @@ The following are the minimum requirements to produce an Accessibility Conforman
 - **Contact Information** –Contact Information for follow-up questions. Listing an email is sufficient.
 - **Notes** – Any details or further explanation about the product or the report. This section may be left blank.
 - **Evaluation Methods Used** – Include a description of evaluation methods used to complete the VPAT for the product under test.
-
 - **Applicable Standards/Guidelines** – A clear indication of which Standards/Guidelines this Conformance Report covers.
 
   - The list must include only the Standards/Guidelines used to evaluate the product.
@@ -82,12 +81,11 @@ The following are the minimum requirements to produce an Accessibility Conforman
     - [Web Content Accessibility Guidelines 2.1](https://www.w3.org/TR/WCAG21) or WCAG 2.1
     - [EN 301 549 Accessibility requirements suitable for public procurement of ICT products and services in Europe](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.01.01_60/en_301549v030101p.pdf), - V3.1.1 (2019-11)
 
-  - If other Standards/Guidelines are reported then use the appropriate VPAT edition.
+  - If other Standards/Guidelines are reported, then use the appropriate VPAT edition.
   - This information can be in a table format at the top of the report with the table heading 'Standards/Guidelines' and the reported Standards/Guidelines identified. This information can alternatively be supplied in the introductory text of the report. In the VPAT we have used a table as an example and listed &quot;(yes / no)&quot; for each standard/guideline. To indicate what the report covers leave the appropriate yes or no on each standard/guideline.
   - If multiple Standards or Guideline tables are included, each table must identify the Standard or Guideline that the criteria in that table represent.
 
 - **Terms** – The report must list the definition of the terms used in the Conformance Level column. ITI recommends the following terms. If a vendor deviates from the ITI definitions, the vendor shall reference this change in the heading Notes section. If a term is not used it can be removed from the list. The ITI definitions are:
-
   - **Supports** : The functionality of the product has at least one method that meets the criterion without known defects or meets with equivalent facilitation.
   - **Partially Supports** : Some functionality of the product does not meet the criterion.
   - **Does Not Support** :Themajority of product functionality does not meet the criterion.
@@ -101,27 +99,25 @@ Note: When filling in the WCAG tables, a response may use 'Supports' where one m
 
 1. WCAG Conformance Information – The answers in the WCAG success criteria are based on the level of conformance being reported (Level A, AA or AAA).
 
-  - These tables are used to answer:
+- These tables are used to answer:
   - EN 301 549 Standard:
-
       - Chapter 9 Web
       - Chapter 10 Non-Web
       - Chapter 11 Software
       - Chapter 12 Documentation and Support Services
-
   - The selected levels of WCAG 2.x Guidelines.
   - The WCAG conformance information can either be included in the provided WCAG section of the report which is cross-referenced from the EN 301 549 responses, or the WCAG information can be incorporated within the EN 301 549 section of the report. The information does not need to be duplicated.
   - If using summary tables, due to answers applying to multiple criteria, when answering for the EN 301 549, the answers need to be clear about which individual criteria the answer applies to. It is possible to either use a summary, selecting the worst case for the criteria, or to have separate answers or even tables for software, support documentation, authoring tools, etc., so long as the methodology used is made clear.
 
 1. Remarks and Explanations – Detailed remarks should be provided in the Remarks and Explanations column to justify your answer in the Conformance Level column.
 
-  - When the conformance level is 'Partially Supports' or 'Does Not Support', the remarks should identify:
+- When the conformance level is 'Partially Supports' or 'Does Not Support', the remarks should identify:
 
   1. The functions or features with issues
   2. How they do not fully support
 
-  - If the criterion does not apply, explain why.
-  - If an accessible alternative is used, describe it.
+- If the criterion does not apply, explain why.
+- If an accessible alternative is used, describe it.
 
 ## Best Practices for Authors
 
@@ -159,7 +155,7 @@ ITI suggests that authors adopt the following best practices when using the VPAT
   - If a requesting customer has identified that a section of the standard does not apply, information should be included in the notes that the section has been removed.
 - **WCAG 2.x Tables:** The WCAG 2.x criteria are shown in three tables, Level A, Level AA, and Level AAA.
   - If desired, these tables can be combined into one table.
-  - When reporting on a level (A, AA or AAA) all criteria for that level must be answered for the particular version of WCAG that the report includes
+  - When reporting on a level (A, AA or AAA) all criteria for that level must be answered for the particular version of WCAG that the report includes.
 - **Language:** Translation to other languages is permitted.
 - **Multiple Reports:** When using the VPAT to create an Accessibility Conformance Report for complex products it may be helpful to separate answers into multiple reports. For example, when a product is an Authoring Tool that also has web content and documentation. When multiple reports are used for a complex product, it is required to explain this and how to reach the other reports in the Notes section of each report.
 - **Criteria Text:** To help conserve space in the ITI template only the criteria ID number and a short title have been included. Where possible, links have been included to the standard/guideline.
