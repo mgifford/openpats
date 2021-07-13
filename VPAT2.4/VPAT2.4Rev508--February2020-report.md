@@ -20,7 +20,7 @@ This report covers the degree of conformance for the following accessibility sta
 
 | **Standard/Guideline** | **Included In Report** |
 | --- | --- |
-| [Web Content Accessibility Guidelines 2.0](http://www.w3.org/TR/2008/REC-WCAG20-20081211) | Level A (Yes)Level AA (Yes)Level AAA (No) |
+| [Web Content Accessibility Guidelines 2.0](http://www.w3.org/TR/2008/REC-WCAG20-20081211) | Level A (Yes) Level AA (Yes) Level AAA (No) |
 | [Revised Section 508 standards published January 18, 2017 and corrected January 22, 2018](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines) | (Yes) |
 
 ## Terms
@@ -107,7 +107,7 @@ Note: When reporting on conformance with the WCAG 2.0 Success Criteria, they are
 | [**1.4.6 Contrast (Enhanced**](http://www.w3.org/TR/WCAG20/#visual-audio-contrast7)) (Level AAA) Revised Section 508 – Does not apply | Web: NA; | Web: NA; |
 | [**1.4.7 Low or No Background Audio**](http://www.w3.org/TR/WCAG20/#visual-audio-contrast-noaudio) (Level AAA) Revised Section 508 – Does not apply | Web: NA; | Web: NA; |
 | [**1.4.8 Visual Presentation**](http://www.w3.org/TR/WCAG20/#visual-audio-contrast-visual-presentation) (Level AAA) Revised Section 508 – Does not apply | Web: NA; | Web: NA; |
-| [**1.4.9 Images of Text (No Exception)**](http://www.w3.org/TR/WCAG20/#http://www.w3.org/TR/WCAG20/) (Level AAA) Revised Section 508 – Does not apply | Web: NA; | Web: NA; |
+| [**1.4.9 Images of Text (No Exception)**](http://www.w3.org/TR/WCAG20/#visual-audio-contrast-text-images) (Level AAA) Revised Section 508 – Does not apply | Web: NA; | Web: NA; |
 | [**2.1.3 Keyboard (No Exception)**](http://www.w3.org/TR/WCAG20/#keyboard-operation-all-funcs) (Level AAA) Revised Section 508 – Does not apply | Web: NA; | Web: NA; |
 | [**2.2.3 No Timing**](http://www.w3.org/TR/WCAG20/#time-limits-no-exceptions) (Level AAA) Revised Section 508 – Does not apply | Web: NA; | Web: NA; |
 | [**2.2.4 Interruptions**](http://www.w3.org/TR/WCAG20/#time-limits-postponed) (Level AAA) Revised Section 508 – Does not apply | Web: NA; | Web: NA; |
